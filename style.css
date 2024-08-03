@@ -1,0 +1,66 @@
+body {
+    background-color: #f3a623; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    position: relative;
+  }
+  
+  .container {
+    background-color: white;
+    padding: 20px;
+    max-width: 350px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(90, 59, 59, 0.1);
+  }
+  #Learning {
+    background-color: #f3a623;
+    width: 23%;
+    padding: 0 0 0 10px;
+    border-radius: 8px;
+  }
+  .container img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .container p {
+    margin: 10px 0;
+  }
+  
+  .container h1 {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .container h1:hover {
+    color: #f3a623;
+  }
+  
+  .container .author {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .container .author img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .attribution {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 10px; 
+  }
+  
+ 
